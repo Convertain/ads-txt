@@ -1,6 +1,6 @@
 # ads.txt Redirect Repository
 
-This repository hosts a public `ads.txt` file used to comply with Google AdSense requirements for platforms that do not support direct ads.txt publishing (e.g., ClickFunnels, Ghost, etc.).
+This repository hosts a public `ads.txt` file used to comply with Google AdSense requirements for platforms that do not support direct ads.txt publishing (e.g., [Ghost](https://ghost.org/), etc.).
 
 ## Purpose
 
