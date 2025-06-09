@@ -14,6 +14,6 @@ Redirects are explained in [Google Adsense's FAQ](https://support.google.com/ads
 
 ## Usage
 
-1. Point a subdomain (e.g., `ads.yourdomain.com`) to GitHub Pages.
-2. Set up a redirect or instruct services to check `https://ads.yourdomain.com/ads.txt`.
-3. Ensure this repository remains publicly accessible.
+1. Create a new repository with your ads.txt file.
+2. Grab the link to the raw file on GitHub.
+3. Setup a redirect/Cloudflare worker for yourdomain.tld/ads.txt to the raw file on GitHub.
