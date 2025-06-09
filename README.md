@@ -4,7 +4,9 @@ This repository hosts a public `ads.txt` file used to comply with Google AdSense
 
 ## Purpose
 
-Some platforms do not allow uploading a custom `ads.txt` file. To work around this, we use a custom domain (e.g., `ads.yourdomain.com`) pointing to this repository via GitHub Pages, then redirect traffic to the appropriate ads.txt file.
+Some platforms do not allow uploading a custom `ads.txt` file. To work around this, we use the link to the raw ads.txt file in this GitHub repository in combination with a Worker on Cloudflare to redirect requests from /ads.txt to the file here.
+
+Redirects are explained in [Google Adsense's FAQ](https://support.google.com/adsense/answer/9785052?hl=en&sjid=17339893654651491626-NA#)
 
 ## Current ads.txt Content
 
